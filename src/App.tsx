@@ -231,15 +231,12 @@ function HeroSection() {
               {/* Hexagon Border */}
               <div className="hexagon-border w-56 h-64 sm:w-72 sm:h-80 md:w-80 md:h-96 lg:w-96 lg:h-[28rem]">
                 <div className="hexagon-inner flex items-center justify-center overflow-hidden">
-                  {/* Placeholder for profile image */}
-                  <div className="w-full h-full bg-gradient-to-br from-blue-900/50 to-gray-800 flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="w-20 h-20 sm:w-24 sm:h-24 lg:w-32 lg:h-32 mx-auto mb-2 lg:mb-4 rounded-full bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center">
-                        <span className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">R</span>
-                      </div>
-                      <p className="text-gray-400 text-xs lg:text-sm">Profile Photo</p>
-                    </div>
-                  </div>
+                  {/* Profile Image */}
+                  <img 
+                    src="/assets/images/Ruben Profile.jpg" 
+                    alt="Ruben Albao Profile"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
