@@ -255,7 +255,7 @@ function EducationSection() {
     {
       school: 'Batangas State University-Arasof Nasugbu',
       degree: 'Bachelor of Science in Information Technology, Major in Business Analytics',
-      year: 'Since 2022',
+      year: '2022-2026',
       location: 'Tertiary',
       side: 'left'
     },
@@ -403,10 +403,10 @@ function SkillsSection() {
   const programmingSkills = [
     { name: 'ReactJS', level: 43, icon: '⚛️' },
     { name: 'HTML5', level: 68, icon: '🌐' },
-    { name: 'CSS3', level: 62, icon: '🎨' },
+    { name: 'Tailwind CSS', level: 62, icon: '🎨' },
     { name: 'Javascript', level: 38, icon: '📜' },
     { name: 'Java', level: 32, icon: '☕' },
-    { name: 'VB.net', level: 58, icon: '🔷' },
+    { name: 'C++', level: 58, icon: '🔷' },
     { name: 'Mysql', level: 63, icon: '🐬' },
   ];
 
