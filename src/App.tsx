@@ -101,7 +101,7 @@ function Navigation() {
           <a href="#home" className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg flex items-center justify-center overflow-hidden">
               <img 
-                src="/assets/images/logo/Logo Ruben.png" 
+                src="./assets/images/logo/Logo Ruben.png" 
                 alt="Ruben Logo" 
                 className="w-full h-full object-contain"
               />
@@ -221,7 +221,7 @@ function HeroSection() {
             </p>
 
             <a href="/assets/documents/ALBAO RUBEN- Resume.pdf" target="_blank" rel="noopener noreferrer">
-              <a href="/assets/documents/ALBAO RUBEN- Resume.pdf" target="_blank" rel="noopener noreferrer" className="inline-block">
+              <a href="./assets/documents/ALBAO RUBEN- Resume.pdf" target="_blank" rel="noopener noreferrer" className="inline-block">
               <Button className={`bg-white text-[#0a1628] hover:bg-gray-200 rounded-full px-4 lg:px-6 py-2 text-sm lg:text-base mt-3 lg:mt-4 ${isInView ? 'fade-in-up' : 'opacity-0'}`} style={{ animationDelay: '0.7s' }}>
                 <span className="hidden lg:inline">View Resume</span>
                 <span className="lg:hidden">View</span>
@@ -238,7 +238,7 @@ function HeroSection() {
                 <div className="hexagon-inner flex items-center justify-center overflow-hidden">
                   {/* Profile Image */}
                   <img 
-                    src="/assets/images/Ruben Profile.jpg" 
+                    src="./assets/images/Ruben Profile.jpg" 
                     alt="Ruben Albao Profile"
                     className="w-full h-full object-cover"
                   />
@@ -333,7 +333,7 @@ function EducationSection() {
                   <div className="w-2/12 flex justify-center">
                     <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-blue-500 bg-gray-800 flex items-center justify-center">
                       <img 
-                        src={`/assets/images/logo/${
+                        src={`./assets/images/logo/${
                           edu.side === 'left' 
                             ? (index === 0 ? 'bsu logo.jpg' : 'Looc NHS logo.jpg')
                             : (index === 1 ? 'Pantalan logo.jpg' : 'Looc ES logo.jpg')
@@ -367,7 +367,7 @@ function EducationSection() {
                     <div className="flex-shrink-0">
                       <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-blue-500 bg-gray-800 flex items-center justify-center">
                         <img 
-                          src={`/assets/images/logo/${
+                          src={`./assets/images/logo/${
                             edu.side === 'left' 
                               ? (index === 0 ? 'bsu logo.jpg' : 'Looc NHS logo.jpg')
                               : (index === 1 ? 'Pantalan logo.jpg' : 'Looc ES logo.jpg')
@@ -586,7 +586,7 @@ function ProjectsSection() {
                     {/* Project Image */}
                     <div className="h-32 sm:h-44 md:h-52 lg:h-64 bg-gradient-to-br from-green-900/50 to-gray-800 flex items-center justify-center relative overflow-hidden group">
                       <img 
-                        src={`/assets/Projects/${project.image}.png`}
+                        src={`./assets/Projects/${project.image}.png`}
                         alt={project.title}
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                       />
