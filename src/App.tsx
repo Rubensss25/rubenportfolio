@@ -223,8 +223,7 @@ function HeroSection() {
             <a href="/assets/documents/ALBAO RUBEN- Resume.pdf" target="_blank" rel="noopener noreferrer">
               <a href="./assets/documents/ALBAO RUBEN- Resume.pdf" target="_blank" rel="noopener noreferrer" className="inline-block">
               <Button className={`bg-white text-[#0a1628] hover:bg-gray-200 rounded-full px-4 lg:px-6 py-2 text-sm lg:text-base mt-3 lg:mt-4 ${isInView ? 'fade-in-up' : 'opacity-0'}`} style={{ animationDelay: '0.7s' }}>
-                <span className="hidden lg:inline">View Resume</span>
-                <span className="lg:hidden">View</span>
+                View Resume
               </Button>
             </a>
             </a>
@@ -234,7 +233,7 @@ function HeroSection() {
           <div className={`flex justify-center lg:justify-end order-1 lg:order-2 ${isInView ? 'slide-in' : 'opacity-0'}`} style={{ animationDelay: '0.3s' }}>
             <div className="relative">
               {/* Hexagon Border */}
-              <div className="hexagon-border w-40 h-48 sm:w-56 sm:h-64 md:w-72 md:h-80 lg:w-96 lg:h-[28rem]">
+              <div className="hexagon-border w-48 h-56 sm:w-64 sm:h-72 md:w-80 md:h-96 lg:w-96 lg:h-[28rem]">
                 <div className="hexagon-inner flex items-center justify-center overflow-hidden">
                   {/* Profile Image */}
                   <img 
