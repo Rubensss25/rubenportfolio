@@ -462,14 +462,15 @@ function SkillsSection() {
                     <div className="flex-1">
                       <div className="h-5 lg:h-6 bg-gray-800 rounded-full overflow-hidden border border-gray-700">
                         <div
-                          className="h-full bg-gradient-to-r from-blue-500 to-blue-400 rounded-full flex items-center justify-end pr-1 lg:pr-2 progress-fill text-xs lg:text-xs"
+                          className="h-full bg-gradient-to-r from-blue-500 to-blue-400 rounded-full flex items-center justify-end pr-1 lg:pr-2 progress-bar-animated text-xs lg:text-xs relative overflow-hidden"
                           style={{ 
                             '--progress': `${skill.level}%`,
                             width: isInView ? `${skill.level}%` : '0%',
-                            transition: `width 1s ease-out ${index * 0.1}s`
+                            transition: `width 2s ease-in-out-quart ${index * 0.2}s`
                           } as React.CSSProperties}
                         >
-                          <span className="text-white font-medium">{skill.level}%</span>
+                          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-shimmer"></div>
+                          <span className="text-white font-medium relative z-10">{skill.level}%</span>
                         </div>
                       </div>
                     </div>

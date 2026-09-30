@@ -143,8 +143,32 @@
   to { width: var(--progress); }
 }
 
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+@keyframes slideRight {
+  from { 
+    width: 0%;
+    opacity: 0;
+  }
+  to { 
+    width: var(--progress);
+    opacity: 1;
+  }
+}
+
 .progress-fill {
   animation: fillProgress 1.5s ease-out forwards;
+}
+
+.progress-bar-animated {
+  animation: slideRight 2s ease-in-out-quart forwards;
+}
+
+.animate-shimmer {
+  animation: shimmer 2s infinite;
 }
 
 /* Card Hover Effect */
